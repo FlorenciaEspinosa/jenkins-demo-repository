@@ -4,13 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96103ffe-20c1-404a-9eae-64a50946d434" name="Default Changelist" comment="" />
+    <list default="true" id="96103ffe-20c1-404a-9eae-64a50946d434" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/DashboardRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DashboardRunner.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1p7JRFW3wl8HuZgWnK3u7iYpynr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -20,7 +27,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="JUnit.LoginRunner">
+  <component name="RunManager" selected="JUnit.DashboardRunner">
     <configuration name="DashboardRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="test_automation_interviewPrep" />
       <option name="PACKAGE_NAME" value="" />
@@ -41,8 +48,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginRunner" />
         <item itemvalue="JUnit.DashboardRunner" />
+        <item itemvalue="JUnit.LoginRunner" />
       </list>
     </recent_temporary>
   </component>
@@ -56,5 +63,16 @@
       <updated>1614528185820</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
