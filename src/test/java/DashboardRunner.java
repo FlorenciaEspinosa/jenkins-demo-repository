@@ -6,8 +6,8 @@ import io.cucumber.junit.Cucumber;
 @CucumberOptions(
         plugin = {"pretty" , "html:target/DashboardRunner",
                 "rerun:target/Rerun_Failed/DashboardRunner.txt"
-        ,"json:target/cucumberTestReport.json"},
-        features = "src/main/resources/features/manageAccess.feature",
+        ,"json:target/cucumber.json"},
+        features = "src/main/resources/features/dashboard.feature",
         glue = {"steps"}
         , stepNotifications = true
        // tags="@regression"

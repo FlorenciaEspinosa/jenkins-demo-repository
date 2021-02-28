@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="96103ffe-20c1-404a-9eae-64a50946d434" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/localConfig.properties" beforeDir="false" afterPath="$PROJECT_DIR$/localConfig.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/utils/WebdriverUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/WebdriverUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/DashboardRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/DashboardRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
