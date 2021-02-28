@@ -1,30 +1,24 @@
 package utils;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
-
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.concurrent.TimeUnit;
 
-public class WebdriverUtils {
 
-    private static String sauceUSer = LocalConfigUtils.getProperty("sauceUser");
+public class WebdriverUtils {
+    private static String sauceUser = LocalConfigUtils.getProperty("sauceUser");
     private static String sauceKey = LocalConfigUtils.getProperty("sauceKey");
-    private static String URL = "https://" + sauceUSer + ":" + sauceKey + "@ondemand.us-west-1.saucelabs.com:443/wd/hub";
+    private static String URL = "https://" + sauceUser + ":" + sauceKey + "@ondemand.us-west-1.saucelabs.com:443/wd/hub";
+
 
     //SINGLETON WEBDRIVER
-
     private static WebDriver driver;
-
     private WebdriverUtils(){
-
     }
-
-
     public static WebDriver getWebDriver(){
         if(driver==null) {
             if (LocalConfigUtils.getProperty("runInSaucelabs").equalsIgnoreCase("true")) {
@@ -34,7 +28,7 @@ public class WebdriverUtils {
                 System.out.println("broswer::: " + browserType);
                 switch (browserType.toLowerCase()) {
                     case "firefox":
-                        System.setProperty("webdriver.gecko.driver", "" +
+                        System.setProperty("webdriver.gecko.driver", "C:\\Users\\F\\Desktop\\Projects\\Selenium\\libs\\Browers\\geckodriver.exe" +
                                 "");
                         driver = new FirefoxDriver();
                         break;
@@ -48,17 +42,12 @@ public class WebdriverUtils {
         }
         return driver;
     }
-
-
-
-
     public static void closeWebDriver(){
         if(driver != null){
             driver.quit();
             driver = null;
         }
     }
-
     public static WebDriver getRemoteDriver(){
         WebDriver driver = null;
         try {
@@ -72,11 +61,7 @@ public class WebdriverUtils {
         }
         return driver;
     }
-
-
 }
-
-
 
 
 
